@@ -30,7 +30,7 @@ a:hover {
 }
 main {
   padding: 80px 10px 10px;
-  min-height: calc(100vh - 50px);
+  min-height: calc(100vh - 20px);
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -75,7 +75,7 @@ main .footnote {
   color: #888;
 }
 footer {
-  height: 50px;
+  height: 20px;
   text-align: center;
 }
 footer #footer_navigation ul {

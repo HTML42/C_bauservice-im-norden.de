@@ -1,6 +1,6 @@
 <?php
 $navi = array(
-    'index.html' => 'Home',
+    'index.html' => 'Willkommen',
 );
 ?>
 <div id="navi_toggler"></div>
