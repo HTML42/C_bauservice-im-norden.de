@@ -241,7 +241,7 @@ header .logo {
     right: 0;
     bottom: 0;
     width: 100px;
-    background: transparent url('../images/icons/navi_toggler_grey.svg') no-repeat center;
+    background: transparent url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjMyIiB2aWV3Qm94PSIwIDAgMzIgMzIiIHdpZHRoPSIzMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNNCAxMGgyNGEyIDIgMCAwIDAgMC00SDRhMiAyIDAgMCAwIDAgNHptMjQgNEg0YTIgMiAwIDAgMCAwIDRoMjRhMiAyIDAgMCAwIDAtNHptMCA4SDRhMiAyIDAgMCAwIDAgNGgyNGEyIDIgMCAwIDAgMC00eiIgZmlsbD0iIzc3NyIvPjwvc3ZnPg==) no-repeat center;
   }
 }
 .box {
