@@ -10,13 +10,13 @@
 @distance_huge: @distance_big * 2;
 
 //Colors
-@color_main_normal: #26E;
+@color_main_normal: #32CCFE;
 @color_main_light: lighten(@color_main_normal, @amplifier);
-@color_main_lighter: lighten(@color_main_light, @amplifier);
+@color_main_lighter: lighten(@color_main_light, @amplifier / 2);
 @color_main_dark: darken(@color_main_normal, @amplifier);
 @color_main_darker: darken(@color_main_dark, @amplifier);
 
-@color_secondary_normal: #CD2;
+@color_secondary_normal: #F60;
 @color_secondary_light: lighten(@color_secondary_normal, @amplifier);
 @color_secondary_lighter: lighten(@color_secondary_light, @amplifier);
 @color_secondary_dark: darken(@color_secondary_normal, @amplifier);
@@ -29,12 +29,14 @@
 @color_bg_light: @color_grey_light;
 @color_bg_dark: @color_grey_dark;
 
-@color_border: #CCC;
+@color_border_normal: #CCC;
 @color_border_light: @color_grey_light;
 @color_border_dark: @color_grey_dark;
 
 //
 @box_shadow: 0 0 @distance_normal rgba(0, 0, 0, 0.2);
+@media_big: ~"(min-width: 560px)";
+@media_small: ~"(max-width: 559px)";
 
 //Heights
 @logo_height: 50px;

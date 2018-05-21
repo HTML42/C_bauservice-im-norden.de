@@ -1,0 +1,32 @@
+#contact {
+    fieldset {
+        border: 1px solid @color_border_normal;
+        border-radius: 10px;
+        margin: 0 0 @distance_small;
+        padding: @distance_small;
+        legend {
+            padding: 0 @distance_small;
+            font-weight: 700;
+        }
+        .row {
+            margin-bottom: @distance_small;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+    input, textarea, select {
+        width: 100%;
+    }
+    input, select {
+        height: 30px;
+        padding: 0 @distance_small;
+    }
+    textarea {
+        min-height: 200px;
+        padding: @distance_tiny @distance_small;
+        @media (min-height: 569px) {min-height: 230px;}
+        @media (min-height: 650px) {min-height: 250px;}
+        @media (min-height: 770px) {min-height: 300px;}
+    }
+}
