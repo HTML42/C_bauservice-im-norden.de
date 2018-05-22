@@ -1,6 +1,10 @@
 <?php
 $navi = array(
     'index.html' => 'Willkommen',
+    'glas-spiegel-bad.html' => 'Glas/Spiegel/Bad',
+    'neubau.html' => 'Neubau',
+    'sarnierung.html' => 'Sarnierung',
+    'reparatur.html' => 'Reparatur',
 );
 ?>
 <div id="navi_toggler"></div>

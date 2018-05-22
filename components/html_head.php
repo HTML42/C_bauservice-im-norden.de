@@ -1,6 +1,6 @@
 <meta charset="utf-8" />
 
-<title>Dream-Vacation.de</title>
+<title>Bauservice im Norden</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 

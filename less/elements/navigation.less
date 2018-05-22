@@ -9,14 +9,15 @@
         li {
             > a {
                 display: block;
-                color: #FFF;
+                color: @color_text;
                 font-weight: 700;
                 &:hover {
                     text-decoration: none;
-                    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+                    text-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
                 }
                 &.active {
-                    color: @color_secondary_normal;
+                    color: #000;
+                    text-decoration: underline;
                     &:hover {
                         text-shadow: none;
                     }
@@ -49,7 +50,7 @@
         top: @header_height;
         left: 0;
         z-index: 100;
-        background-color: @color_main_dark;
+        background-color: @color_secondary_light;
         ul {
             @navi_item_height: 50px;
             @navi_item_length: 4;

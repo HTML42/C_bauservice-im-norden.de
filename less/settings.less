@@ -10,13 +10,13 @@
 @distance_huge: @distance_big * 2;
 
 //Colors
-@color_main_normal: #32CCFE;
+@color_main_normal: #F82;
 @color_main_light: lighten(@color_main_normal, @amplifier);
 @color_main_lighter: lighten(@color_main_light, @amplifier / 2);
 @color_main_dark: darken(@color_main_normal, @amplifier);
 @color_main_darker: darken(@color_main_dark, @amplifier);
 
-@color_secondary_normal: #F60;
+@color_secondary_normal: #2E3;
 @color_secondary_light: lighten(@color_secondary_normal, @amplifier);
 @color_secondary_lighter: lighten(@color_secondary_light, @amplifier);
 @color_secondary_dark: darken(@color_secondary_normal, @amplifier);
@@ -35,11 +35,12 @@
 
 //
 @box_shadow: 0 0 @distance_normal rgba(0, 0, 0, 0.2);
-@media_big: ~"(min-width: 560px)";
-@media_small: ~"(max-width: 559px)";
+@media_big: ~"(min-width: 750px)";
+@media_small: ~"(max-width: 749px)";
 
 //Heights
 @logo_height: 50px;
 @header_height: @logo_height + @distance_small + @distance_small;
 @navigation_height: 30px;
+@contact_row_height: 30px;
 @footer_height: 20px;

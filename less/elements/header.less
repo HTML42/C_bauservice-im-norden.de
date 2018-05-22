@@ -1,6 +1,6 @@
 header {
     height: @header_height;
-    background-color: @color_main_normal;
+    background-color: @color_secondary_lighter;
     position: fixed;
     top: 0;
     left: 0;
@@ -11,12 +11,47 @@ header {
     }
     .logo {
         position: absolute;
-        top: @distance_small;
+        bottom: 50%;
         left: @distance_small;
-        height: 100px / 2;
-        width: 446px / 2;
-        background: transparent url('../images/logo/html42_h100.png') no-repeat center / 100%;
-        text-indent: -9999px;
-        color: transparent;
+        transform: translateY(50%);
+        line-height: 1.1em;
+        font-family: Verdana, Arial;
+        font-weight: 700;
+        font-size: 6vw;
+        @media (min-width: 400px) {
+            font-size: 24px;
+        }
+        .logo_main, .logo_sub {
+            display: block;
+        }
+        .logo_main {
+            color: @color_main_normal;
+        }
+        .logo_sub {
+            font-size: 0.8em;
+            color: #000;
+        }
+    }
+    .contact_row {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        height: @contact_row_height;
+        background-color: @color_secondary_light;
+        text-align: right;
+        a {
+            .h(@contact_row_height);
+            padding: 0 @distance_small;
+            &.callme {
+                float: left;
+            }
+            &.mailme {
+                //float: right;
+            }
+            &.contactme {
+                //float: right;
+            }
+        }
     }
 }

@@ -17,14 +17,14 @@ html {
 //
 a {
     text-decoration: none;
-    color: @color_main_dark;
+    color: #000;
     &:hover {
         text-decoration: underline;
     }
 }
 //
 main {
-    padding: (@header_height + @distance_small) @distance_small @distance_small;
+    padding: (@header_height + @distance_small + @contact_row_height) @distance_small @distance_small;
     min-height: calc(~"100vh - @{footer_height}");
     max-width: @pagewidth;
     margin: 0 auto;
